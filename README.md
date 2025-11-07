@@ -16,7 +16,11 @@ uv sync
 #if you use poetry:
 poetry sync
 
+# if you use pixi:
 
+pixi shell
+
+# then follow the guidance and it will modify your pyproject.toml
 
 # then, run the code
 python main.py
