@@ -3,7 +3,12 @@ name = "calculator"
 version = "0.1.0"
 description = "Simple calculator made with PySide6 and QML"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12, <3.13"
 dependencies = [
     "pyside6>=6.10.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.4",
 ]
